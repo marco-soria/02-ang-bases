@@ -3,8 +3,8 @@ import { Component, signal } from '@angular/core';
 @Component({
   selector: 'app-counter',
   imports: [],
-  templateUrl: './counter.component.html',
-  styleUrl: './counter.component.css',
+  templateUrl: './counter.html',
+  styleUrl: './counter.css',
 })
 export class CounterComponent {
   counter = 10;

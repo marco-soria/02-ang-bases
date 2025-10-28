@@ -4,8 +4,8 @@ import { Character } from '../../../interfaces/character.interface';
 @Component({
   selector: 'app-character-add',
   imports: [],
-  templateUrl: './character-add.component.html',
-  styleUrl: './character-add.component.css',
+  templateUrl: './character-add.html',
+  styleUrl: './character-add.css',
 })
 export class CharacterAddComponent {
   name = signal('');

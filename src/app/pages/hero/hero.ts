@@ -4,8 +4,8 @@ import { Component, computed, signal } from '@angular/core';
 @Component({
   selector: 'app-hero',
   imports: [UpperCasePipe],
-  templateUrl: './hero.component.html',
-  styleUrl: './hero.component.css',
+  templateUrl: './hero.html',
+  styleUrl: './hero.css',
 })
 export class HeroComponent {
   name = signal('Ironman');

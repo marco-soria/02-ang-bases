@@ -8,7 +8,7 @@ interface Character {
 }
 
 @Component({
-  templateUrl: './dragonball.component.html',
+  templateUrl: './dragonball.html',
   imports: [
     // NgClass
   ],
